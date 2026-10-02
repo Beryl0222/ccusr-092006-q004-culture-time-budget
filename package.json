@@ -1,10 +1,11 @@
 {
   "name": "culture-time-budget",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "碎片文化消费节律保护领域资料",
+  "description": "碎片文化消费节律保护：统一时间预算后端与领域资料",
   "scripts": {
+    "start": "node src/server/server.js",
     "test": "node --test"
   }
 }
