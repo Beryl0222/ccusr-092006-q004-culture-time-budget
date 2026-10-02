@@ -1,10 +1,15 @@
 {
   "name": "culture-time-budget",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "碎片文化消费节律保护领域资料",
+  "description": "碎片文化消费节律保护：统一时间预算、约定版本、可信时间归并、监护与审批后端",
+  "main": "src/service.js",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "start": "node src/http.js"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

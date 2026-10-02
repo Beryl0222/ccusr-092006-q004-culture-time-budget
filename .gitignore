@@ -1,6 +1,8 @@
 .env
 *.key
 *.pem
+*.jsonl
+data/runtime/
 node_modules/
 .venv/
 venv/
